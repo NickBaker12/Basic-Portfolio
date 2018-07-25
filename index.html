@@ -5,46 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nick's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
 </head>
 <body>
+<div class="container">
     <div class="top">
-        <div class="navbox">
-            <div class="logobox">
-                <h1>
-                    Nicholas Baker
-                </h1>
+        <div class="row">
+            <div class="navbox">
+                <div class="col-sm-3">
+                    <div class="logobox">
+                        <h1>
+                            Nicholas Baker
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <nav>
+                        <a href="index.html">About</a>    |
+                        <a href="portfolio.html"> Portfolio</a>
+                    </nav>
+                </div>
             </div>
-            <nav>
-                <a href="index.html">About</a>    |
-                <a href="portfolio.html"> Portfolio</a>    |
-                <a href="contact.html">Contact</a>
-            </nav>
         </div>
     </div>
-    <main id="indexmain"> 
-        <h2>
-            About me
-        </h2>
-        <hr>
-        <br>
-        <img src="assets/images/me.JPG" alt="Picture of Nick Baker" width="200px" height="200px" class="mepic">
-        <p class="words">
-            I am Nick Baker, a student of U of A's Web Development Boot Camp. I am also a full-time UX Designer
-            at U-Haul. Outside of work and class, I hang out with friends, listen to and create music, contemplate,
-            and watch YouTube videos.
-        </p>
-        <p class="words">
-            My favorite kind of music is metal, rock, and jazz fusion. My favorite sub-genres of metal are
-            thrash, metalcore, deathcore, and death metal. Metal fulfills inexplicable existential needs.
-        </p>
-    </main>
-    <footer>
-        <div class="footer-strip">
+    <main> 
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>
+                    About me
+                </h2>
+                <hr>
+                <br>
+            </div>
         </div>
-        <p>Copyright©</p>
-    </footer>   
-
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="assets/images/me.JPG" alt="Picture of Nick Baker" width="200px" height="200px" class="mepic">
+            </div>
+            <div class="col-sm-7">
+                <p class="words">
+                    I am Nick Baker, a student of U of A's Web Development Boot Camp. I am also a full-time UX Designer
+                    at U-Haul. Outside of work and class, I hang out with friends, listen to and create music, contemplate,
+                    and watch YouTube videos.
+                </p>
+                <p class="words">
+                    My favorite kind of music is metal, rock, and jazz fusion. My favorite sub-genres of metal are
+                    thrash, black metal, deathcore, viking metal, and death metal. Metal fulfills inexplicable existential needs.
+                </p>
+            </div>
+        </div>   
+        <div class="row"> 
+            <div class="col-sm-12">
+                <h3 class="contact">Github profile:</h3><p id="link">https://github.com/NickBaker12</p>
+                <br>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="contact">LinkedIn Page:</h3><p id="link">https://www.linkedin.com/in/nicholas-baker-7a0b1687/</p>
+                <br>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="contact">Email:</h3><p id="link">nicholasryanbaker12@gmail.com</p>
+            </div>
+        </div>
+        
+    </main>
+    <div class="row">
+        <div class="col-sm-12">
+            <footer>
+                <div class="footer-strip">
+                </div>
+                <p>Copyright©</p>
+            </footer>  
+        </div> 
+    </div> 
+</div>
 </body>
 </html>

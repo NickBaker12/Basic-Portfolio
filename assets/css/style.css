@@ -8,16 +8,13 @@ body{
 }
 .top {
     background-color: white;
-    width: 100%;
-    height: 110px;
     border-bottom: 4px solid #cccccc;
 }
 .navbox {
     background-color: white;
     border-color: #cccccc;
     margin: 0 auto;
-    width: 960px;
-    height: 100px;
+    width: 80%;
 }
 .navbox p {
     padding: 10px;
@@ -46,40 +43,38 @@ main {
     background-color: white;
     border-color: #dddddd;
     margin: 0 auto;
-    width: 960px;
+    width: 80%;
     padding: 10px;
     margin-top: 30px;
-    height: auto;
 }
-#indexmain {
-    height: 312px;
+#link{
+    display: inline-block;
+    padding-left: 5px;
 }
-#portfolio-main {
-    height: 700px;
+.contact {
+    display: inline-block;
+}
+.col-sm-7 {
+    float: right;
+    margin-left: 20px;
+}
+.title {
+    display: inline-block;
+}
+#link{
+    display: inline-block;
+    padding-left: 20px;
 }
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-}
-h3 a {
-    color: white;
-}
-img {
-    margin-right: 20px;
-    margin-bottom: 20px;
-    max-width: 200px;
-    max-height: 200px;
 }
 hr {
     border-width: 4px;
     border-color: #dddddd;
 }
 .mepic {
-    max-width: 200px;
     float: left;
-    margin: 10px;
-}
-.words {
     margin: 10px;
 }
 button {
@@ -94,50 +89,12 @@ button {
 textarea, input {
     width: 100%
 }
-textarea {
-    height: 150px;
-}
-.form-title {
-    margin-bottom: 1px;
-}
-.imagebox {
-    position: relative;
-    float: left;
-}
-.imagebox2 {
-    position: relative;
-    clear: both;
-    float: left;
-}
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-bottom: 20px;
-    text-align: center;
-}
-#abstract1box {
-    width: 196.656px;
-}
-#abstract2box, #sushibox, #yumbox {
-    width: 200px;
-}
-#yum2box {
-    width: 178.391;
-}
-.text-block h3 {
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .footer-strip {
-    width: 100%;
+    width: 80%;
     height: 10px;
     background-color: #4aaaa5;
 }
 footer {
-    margin-top: 300px;
     text-align: center;
     background-color: #666666;
 }
